@@ -1,0 +1,64 @@
+Code for CSS part :-
+
+body{
+  background-color: aquamarine;
+}
+.container{
+  display:grid;
+  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px 30px;
+  justify-items: center;
+  border-top: 2px solid maroon;
+}
+h1>em{ background-color: hotpink;
+  color:black;
+  border:2px solid blue;
+}
+.box{
+  height: 200px;
+  width: 200px;
+  margin: 80px;
+  padding: 50px;
+  
+  }
+/*  @keyframes image{
+    from{
+      top: 30px;
+      bottom: 60px;
+      right:20px;
+    }
+    to{
+      left:90px;
+      bottom:40px;
+    }
+  }*/
+/*.box1{
+  justify-self: end;
+}
+.box2{
+  
+}
+.box3{
+ 
+}
+.box4{
+ 
+}
+.box5{
+ 
+}
+.box6{
+ 
+}
+.box7{
+ 
+}
+.box8{
+  
+}*/
+img{
+  width:200px;
+  height: auto;
+  
+}
